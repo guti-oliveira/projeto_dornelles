@@ -25,12 +25,6 @@ body {
     box-shadow: 2px 2px 4px #b48b7459;
 }
 
-#logo {
-    font-size: 1em;
-    font-weight: bold;
-    color: #b48b74;
-}
-
 .link {
     text-decoration: none;
     color: #b48b74;
@@ -90,9 +84,9 @@ body {
     font-weight: bold;
     font-size: 1em;
     text-decoration: none;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.541);
     border: 1px solid #b48b74;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.541);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
     border-radius: 30px;
     
 }
