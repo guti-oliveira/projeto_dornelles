@@ -12,88 +12,86 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-    font-family: Helvetica;
+    font-size: 100%;
+    font-family: Helvetica, sans-serif;
     background: #F5F5F7;
 }
 
-.container-1 {
+/*Header*/
+
+.cabecalho {
     display: flex;
     flex-direction: row;
-    height: 10vh;
-    width: 100vw;
     align-items: center;
     justify-content: space-around;
     box-shadow: 2px 2px 4px #b48b7459;
 }
 
-.link {
-    text-decoration: none;
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-item {
     color: #b48b74;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 1em;
-    letter-spacing: 0.1em;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.199);
+    font-weight: 800;
+    font-size: 16px;
     transition: 0.5s;
 }
 
-.link:hover {
+.cabecalho-item:hover {
     color: #e79e74;
 }
 
-div {
-    width: 100vw;
+/* Main */
+
+.conteudo-principal {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin-top: 18vh;
+    justify-content: space-around;
+    margin-top: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555)), url(../img/contato.png) center center/cover no-repeat fixed;
 }
 
-.container-2 {
+.conteudo-principal-escrito {
     display: flex;
-    flex-direction: row;
-    height: 50vh;
-    width: 100vw;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background-color: var(--cor0);
+    gap: 72px;
+    width: 400px;
+    padding: 20px;
 }
 
-.bloco-1{
-    max-width: 400px;
-    width: 33vw;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.titulo {
-    letter-spacing: 0.2em;
-    font-family: Analogue;
-    padding: 10px;
-    font-size: 1.5em;
-    font-weight: lighter;
+.conteudo-principal-escrito-titulo {
+    margin-top: -100px;
     color: #7e8a9c;
+    font-family: Analogue;
+    font-weight: lighter;
+    font-size: 24px;
+    letter-spacing: 2px;
 }
 
-.conteudo {
+.conteudo-principal-escrito-subtitulo {
     color: #F5F5F7;
+    font-family: Analogue;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.226);
+}
+
+.conteudo-principal-escrito-paragrafo {
+    color: #F5F5F7;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.226);
     text-align: justify;
-    letter-spacing: 0.1em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
-}
-
-.bloco-2{
-    width: 20vw;
-    height: 40vh;
-}
-
-.bloco-3{
-    max-width: 400px;
-    width: 33vw;
-    padding: 10px;
-    border-radius: 10px;
 }
