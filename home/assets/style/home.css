@@ -5,11 +5,6 @@
     src: url(/home/assets/fonts/Analogue35Thin.ttf) format('truetype');
 }
 
-@font-face {
-    font-family: 'Cream Peach';
-    src: url(/home/assets/fonts/CreamPeach.ttf) format('truetype');
-}
-
 :root {
     --cor0: #a77253f8;
 }
