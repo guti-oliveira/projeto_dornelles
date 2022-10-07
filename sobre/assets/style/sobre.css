@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Analogue';
+    src: url(/home/assets/fonts/Analogue35Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cream Peach';
+    src: url(/home/assets/fonts/CreamPeach.ttf) format('truetype');
+}
+
+:root {
+    --cor0: #a77253f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    background: #F5F5F7;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 4px #b48b7459;
+}
+
+.link {
+    text-decoration: none;
+    color: #b48b74;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.199);
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #e79e74;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
