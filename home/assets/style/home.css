@@ -5,6 +5,11 @@
     src: url(/home/assets/fonts/Analogue35Thin.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Cream Peach';
+    src: url(/home/assets/fonts/CreamPeach.ttf) format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -28,8 +33,10 @@ body {
 .link {
     text-decoration: none;
     color: #b48b74;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 1em;
+    letter-spacing: 0.2em;
 }
 
 .container-2 {
@@ -52,6 +59,7 @@ body {
 }
 
 .titulo {
+    letter-spacing: 0.2em;
     font-family: Analogue;
     text-align: center;
     margin: -100px 0px 100px 0px;
@@ -88,7 +96,11 @@ body {
     border: 1px solid #b48b74;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
     border-radius: 30px;
-    
+    transition: 0.5s;
+}
+
+.botao:hover {
+    background-color: #e79e74;
 }
 
 .bloco-2 {
