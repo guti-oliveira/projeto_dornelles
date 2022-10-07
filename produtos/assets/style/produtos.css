@@ -61,7 +61,6 @@ body {
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-   
 }
 
 .bloco-1 {
@@ -70,10 +69,6 @@ body {
     text-align: justify;
     width: 70vw;
     border-radius: 15px;
-}
-
-.artigo {
-    margin: 50px 0px;
 }
 
 .titulo {
@@ -87,54 +82,28 @@ body {
     color: #7e8a9c;
 }
 
-.subtitulo {
-    background-color: var(--cor0);
-    font-weight: lighter;
-    padding: 10px;
-    margin: 50px 0px 10px 0px;
-    color: #F5F5F7;
-    text-align: center;
-}
 .conteudo {
-    margin: 0px 0px 50px 0px;
-    padding: 10px;
+    text-align: start;
+    padding: 15px;
     font-weight: lighter;
     color: #525a66;
 }
 
-.botao {
-    margin-left: 20px;
-    padding: 13px 30px;
-    background-color: #c9835e;
-    color: #F5F5F7;
-    font-weight: bold;
-    font-size: 1em;
-    text-decoration: none;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.541);
-    border: 1px solid #b48b74;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
-    border-radius: 30px;
-    transition: 0.5s;
-}
-
-.botao:hover {
-    background-color: #e79e74;
-}
-
-#imagem-home {
+#imagem-produto {
+    overflow: hidden;
     padding: 15px;
     width: 90%;
     height: 350px;
-    border-radius: 4%;
-
+    border-radius: 25%;
 }
+
 .card{
     width: 400px;
-    height: 700px;
-	margin: 10px;
-	background-color: white;
-	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    height: 680px;
+	margin: 30px 30px 10px 25px;
+	background-color:  #F5F5F7;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
     justify-content: space-around;
-    border-radius: 15px;
+    border-radius: 20px;
     transition: all 0.3s ease-out;
 }
