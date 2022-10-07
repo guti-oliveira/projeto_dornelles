@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Analogue';
+    src: url(/home/assets/fonts/Analogue35Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cream Peach';
+    src: url(/home/assets/fonts/CreamPeach.ttf) format('truetype');
+}
+
+:root {
+    --cor0: #a77253f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    background: #F5F5F7;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 4px #b48b7459;
+}
+
+.link {
+    text-decoration: none;
+    color: #b48b74;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.199);
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #e79e74;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+     margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+   
+}
+
+.bloco-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    width: 70vw;
+    border-radius: 15px;
+}
+
+.artigo {
+    margin: 50px 0px;
+}
+
+.titulo {
+    letter-spacing: 0.2em;
+    font-family: Analogue;
+    text-align: center;
+    margin: 0px 30px 25px 0px;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: #7e8a9c;
+}
+
+.subtitulo {
+    background-color: var(--cor0);
+    font-weight: lighter;
+    padding: 10px;
+    margin: 50px 0px 10px 0px;
+    color: #F5F5F7;
+    text-align: center;
+}
+.conteudo {
+    margin: 0px 0px 50px 0px;
+    padding: 10px;
+    font-weight: lighter;
+    color: #525a66;
+}
+
+.botao {
+    margin-left: 20px;
+    padding: 13px 30px;
+    background-color: #c9835e;
+    color: #F5F5F7;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.541);
+    border: 1px solid #b48b74;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    background-color: #e79e74;
+}
+
+#imagem-home {
+    padding: 15px;
+    width: 90%;
+    height: 350px;
+    border-radius: 4%;
+
+}
+.card{
+    width: 400px;
+    height: 700px;
+	margin: 10px;
+	background-color: white;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    justify-content: space-around;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
