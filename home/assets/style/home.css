@@ -10,6 +10,10 @@
     src: url(/home/assets/fonts/CreamPeach.ttf) format('truetype');
 }
 
+:root {
+    --cor0: #a77253f8;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +40,13 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 1em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.199);
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #e79e74;
 }
 
 .container-2 {
@@ -70,7 +80,7 @@ body {
 }
 
 .subtitulo {
-    background-color: #a77253f8;
+    background-color: var(--cor0);
     font-weight: lighter;
     padding: 10px;
     margin: 50px 0px 10px 0px;
