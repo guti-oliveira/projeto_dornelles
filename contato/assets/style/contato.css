@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Analogue';
+    src: url(/home/assets/fonts/Analogue35Thin.ttf) format('truetype');
+}
+
+:root {
+    --cor0: #a77253f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    font-family: Helvetica, sans-serif;
+    background: #F5F5F7;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 4px #b48b7459;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-item {
+    color: #b48b74;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.cabecalho-item:hover {
+    color: #e79e74;
+}
+
+.conteudo {
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.conteudo-principal-escrito {
+    width: 1030px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.conteudo-principal-titulo {
+    text-align: center;
+    margin: -100px 0px 100px 0px;
+    color: #7e8a9c;
+    font-family: Analogue;
+    font-weight: lighter;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.conteudo-principal-endereco {
+    text-align: center;
+    color: #7e8a9c;
+    font-family: Analogue;
+    font-weight: lighter;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+form {
+     max-width:550px; 
+     margin:50px auto; 
+}
+
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #b48b74;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { 
+    border:2px 
+    solid #b48b74; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+ font-family: Helvetica;
+  width: 100%;
+  background:#b48b74;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color: #F5F5F7;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="submit"]:hover {
+     background:#a56d4d;
+ }
