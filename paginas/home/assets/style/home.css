@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Analogue';
-    src: url(/home/assets/fonts/Analogue35Thin.ttf) format('truetype');
+    src: url(./home/assets/fonts/Analogue35Thin.ttf) format('truetype');
 }
 
 :root {

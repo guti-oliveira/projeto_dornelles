@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'Analogue';
-    src: url(/home/assets/fonts/Analogue35Thin.ttf) format('truetype');
+    src: url(../home/assets/fonts/Analogue35Thin.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Cream Peach';
-    src: url(/home/assets/fonts/CreamPeach.ttf) format('truetype');
+    src: url(../home/assets/fonts/CreamPeach.ttf) format('truetype');
 }
 
 :root {
